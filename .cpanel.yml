@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/<user_name>/public_html
+    - export DEPLOYPATH=/home2/bettert6/public_html
     - /bin/cp -r * $DEPLOYPATH
   
